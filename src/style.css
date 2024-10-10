@@ -3,14 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: rgba(216, 112, 147, 0.7);
+}
 .card{
     height: 100%;
-    width: 250px;
-    border: 2px solid red;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: auto;
+    padding: 20px;
 }
 .img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    
+}
+.name-age{
+    position: relative;
+    bottom: 65px;
+    left: 170px;
+    color: yellow;
+}
+.name{
+    font-size: 20px;
+}
+.bct{
+    margin-left: 120px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 217, 120, 0.733);
+    font-size: 15px;
+    color: rgb(145, 31, 69);
+}
+.head{
+    margin-bottom: 10px;
+    color: rgb(145, 31, 69);
 }

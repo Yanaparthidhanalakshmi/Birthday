@@ -1,9 +1,9 @@
 let db=[
     {
         id: 1,
-        name:"vishnu" ,
-        image: "/Assests/pic.jpg",
-        age: "28 years"
+        name:"vaishu" ,
+        image: "/Assests/pic0.jpg",
+        age: "48 years"
     },
     {
         id: 2,
